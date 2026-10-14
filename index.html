@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Clínica Dental | Odontología de Vanguardia y Estética Premium</title>
+    <meta name="description" content="Experimenta la odontología de alta gama en Aura. Especialistas en diseño de sonrisa, implantes y ortodoncia invisible en un entorno exclusivo diseñado para tu bienestar.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Header / Nav -->
+    <header id="main-header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="logo-text">AURA</span>
+                <span class="logo-subtext">DENTAL</span>
+            </a>
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                    <li><a href="#valores" class="nav-link">Filosofía</a></li>
+                    <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                    <li><a href="#nosotros" class="nav-link">La Clínica</a></li>
+                    <li><a href="#opiniones" class="nav-link">Opiniones</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="#cita" class="btn btn-primary btn-sm">Pedir Cita</a>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Abrir menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge">Salud, Arte y Vanguardia</div>
+                <h1 class="hero-title">La excelencia de una sonrisa <span>sana y natural</span></h1>
+                <p class="hero-subtitle">
+                    Fusionamos la tecnología dental más avanzada con la máxima atención al detalle. Tu bienestar y confianza en un espacio de absoluto confort.
+                </p>
+                <div class="hero-actions">
+                    <a href="#cita" class="btn btn-primary">Solicitar Diagnóstico Digital</a>
+                    <a href="#servicios" class="btn btn-secondary">Explorar Tratamientos</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">Años de Trayectoria</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">99.4%</span>
+                        <span class="stat-label">Pacientes Satisfechos</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="hero-image-card">
+                    <img src="assets/clinic_interior.png" alt="Instalaciones exclusivas de Aura Clínica Dental" class="hero-img">
+                    <div class="floating-badge">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#C5A880" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <div>
+                            <h4>Certificación Dental Gold</h4>
+                            <p>Instalaciones de máxima bioseguridad</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+        </div>
+    </section>
+
+    <!-- Pillars / Values Section -->
+    <section id="valores" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Nuestra Filosofía</span>
+                <h2 class="section-title">¿Por qué elegir Aura Dental?</h2>
+                <p class="section-subtitle">
+                    Redefinimos la visita al dentista. Creemos en un servicio centrado en las personas, donde el confort es tan primordial como la precisión médica.
+                </p>
+            </div>
+            <div class="pillars-grid">
+                <!-- Pillar 1 -->
+                <div class="pillar-card animate-on-scroll">
+                    <div class="pillar-icon">
+                        <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h3>Máxima Confianza</h3>
+                    <p>Diagnósticos transparentes con cámaras intraorales y escáner 3D. Te explicamos cada detalle visualmente antes de iniciar.</p>
+                </div>
+                <!-- Pillar 2 -->
+                <div class="pillar-card animate-on-scroll">
+                    <div class="pillar-icon">
+                        <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4.5 16.5c-1.5 1.26-2.5 3.19-2.5 5.5h20c0-2.31-1-4.24-2.5-5.5"/>
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                    </div>
+                    <h3>Odontología Sin Dolor</h3>
+                    <p>Protocolos de sedación consciente y anestesia computarizada para que tu experiencia sea totalmente relajante y libre de ansiedad.</p>
+                </div>
+                <!-- Pillar 3 -->
+                <div class="pillar-card animate-on-scroll">
+                    <div class="pillar-icon">
+                        <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+                            <line x1="12" y1="17" x2="12.01" y2="17"/>
+                        </svg>
+                    </div>
+                    <h3>Tecnología de Punta</h3>
+                    <p>Diseño digital de sonrisa (DSD), ortodoncia invisible asistida por IA e implantes guiados por ordenador para resultados perfectos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services / Benefits Section -->
+    <section id="servicios" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Tratamientos Exclusivos</span>
+                <h2 class="section-title">Especialidades diseñadas para ti</h2>
+                <p class="section-subtitle">
+                    Ofrecemos una gama de tratamientos integrales de odontología estética, restauradora y preventiva con materiales de la más alta calidad.
+                </p>
+            </div>
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card animate-on-scroll">
+                    <div class="service-image-container">
+                        <div class="service-icon-floating">✨</div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Estética Dental Avanzada</h3>
+                        <p>Diseño personalizado de sonrisa con carillas de porcelana ultrafinas. Devolvemos el brillo y la armonía a tu rostro de forma natural.</p>
+                        <ul class="service-bullets">
+                            <li>Carillas de Micro-porcelana</li>
+                            <li>Blanqueamiento LED Premium</li>
+                            <li>Recontorneado estético</li>
+                        </ul>
+                        <a href="#cita" class="service-link">Saber más <span>&rarr;</span></a>
+                    </div>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card animate-on-scroll">
+                    <div class="service-image-container">
+                        <div class="service-icon-floating">🦷</div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Ortodoncia Invisible (Invisalign®)</h3>
+                        <p>Alinea tus dientes con total discreción y comodidad. Planificamos tu evolución en 3D para que veas el resultado antes de empezar.</p>
+                        <ul class="service-bullets">
+                            <li>Férulas transparentes extraíbles</li>
+                            <li>Menor tiempo de tratamiento</li>
+                            <li>Sin brackets ni rozaduras</li>
+                        </ul>
+                        <a href="#cita" class="service-link">Saber más <span>&rarr;</span></a>
+                    </div>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card animate-on-scroll">
+                    <div class="service-image-container">
+                        <div class="service-icon-floating">💎</div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Implantes y Prótesis Premium</h3>
+                        <p>Recupera la funcionalidad y estética de tu boca en un solo día con implantes de titanio biocompatible de la más alta gama.</p>
+                        <ul class="service-bullets">
+                            <li>Implantes de carga inmediata</li>
+                            <li>Cirugía guiada por ordenador</li>
+                            <li>Materiales 100% biocompatibles</li>
+                        </ul>
+                        <a href="#cita" class="service-link">Saber más <span>&rarr;</span></a>
+                    </div>
+                </div>
+                <!-- Service 4 -->
+                <div class="service-card animate-on-scroll">
+                    <div class="service-image-container">
+                        <div class="service-icon-floating">🛡️</div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Odontología Preventiva Guiada</h3>
+                        <p>Prevenir es el arte de conservar. Utilizamos tecnología de limpieza guiada por biofilm sin dolor para cuidar tus encías y dientes.</p>
+                        <ul class="service-bullets">
+                            <li>Limpieza Airflow® (Sin dolor)</li>
+                            <li>Detección temprana con láser</li>
+                            <li>Tratamientos de encías (Periodoncia)</li>
+                        </ul>
+                        <a href="#cita" class="service-link">Saber más <span>&rarr;</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clinic & Doctor Section -->
+    <section id="nosotros" class="section-padding bg-light">
+        <div class="container doctor-container">
+            <div class="doctor-image-wrapper animate-on-scroll">
+                <div class="doctor-card">
+                    <img src="assets/dentist_portrait.png" alt="Dra. Clara Mendoza - Directora Médica de Aura" class="doctor-img">
+                    <div class="doctor-badge">
+                        <h4>Dra. Clara Mendoza</h4>
+                        <p>Directora Médica & Especialista en Estética</p>
+                    </div>
+                </div>
+            </div>
+            <div class="doctor-content animate-on-scroll">
+                <span class="section-tag">Dirección Médica</span>
+                <h2 class="section-title">Liderado por la excelencia y la empatía</h2>
+                <p class="doctor-text">
+                    "En Aura, entendemos que ir al dentista no se trata solo de tratar dientes; se trata de cuidar de ti. Hemos creado un concepto donde la precisión científica se funde con un trato cálido y un diseño de experiencia pensado para tu bienestar."
+                </p>
+                <div class="doctor-bio-points">
+                    <div class="bio-point">
+                        <span class="bio-point-icon">✓</span>
+                        <div>
+                            <strong>Formación Internacional</strong>
+                            <p>Máster en Estética Dental por la Universidad de Nueva York.</p>
+                        </div>
+                    </div>
+                    <div class="bio-point">
+                        <span class="bio-point-icon">✓</span>
+                        <div>
+                            <strong>Innovación Docente</strong>
+                            <p>Profesora conferenciante de ortodoncia digital y estética.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="doctor-signature">
+                    <p class="signature-name">Dra. Clara Mendoza</p>
+                    <p class="signature-title">Nº Colegiada: 28005423</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials / Opinions Section -->
+    <section id="opiniones" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Opiniones de Pacientes</span>
+                <h2 class="section-title">Historias que nos hacen sonreír</h2>
+                <p class="section-subtitle">
+                    La confianza de nuestros pacientes es nuestro mayor orgullo. Conoce la experiencia de quienes ya han transformado su sonrisa en Aura.
+                </p>
+            </div>
+            <div class="testimonials-slider-container">
+                <div class="testimonials-track" id="testimonials-track">
+                    <!-- Slide 1 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">
+                            "El trato en Aura es excepcional. Tenía pánico al dentista desde niña y gracias a su paciencia y la sedación consciente, pude hacerme todo el tratamiento sin enterarme de nada. ¡La clínica parece un hotel boutique de 5 estrellas!"
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Marta Gómez</h4>
+                                <p>Paciente de Ortodoncia Invisible</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">
+                            "Buscaba un diseño de sonrisa natural y la Dra. Clara Mendoza superó mis expectativas. Hicieron una simulación digital en 3D antes de empezar y el resultado final con carillas es increíblemente natural. Profesionalidad insuperable."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Carlos Ruiz</h4>
+                                <p>Paciente de Estética Dental</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">
+                            "Me colocaron dos implantes con cirugía guiada y no sentí ningún dolor. Al día siguiente ya estaba haciendo mi vida normal con las piezas provisionales puestas. La tecnología que manejan en Aura está a otro nivel."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Sofía Benítez</h4>
+                                <p>Paciente de Implantología</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-btn prev-btn" id="prev-btn" aria-label="Anterior">&larr;</button>
+                    <div class="slider-dots" id="slider-dots"></div>
+                    <button class="slider-btn next-btn" id="next-btn" aria-label="Siguiente">&rarr;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section id="cita" class="section-padding bg-dark text-white">
+        <div class="container booking-container">
+            <div class="booking-info animate-on-scroll">
+                <span class="section-tag tag-light">Solicitar Cita</span>
+                <h2 class="section-title text-white">Comienza tu viaje hacia una sonrisa perfecta</h2>
+                <p class="booking-description">
+                    Rellena el formulario y una de nuestras coordinadoras de tratamiento se pondrá en contacto contigo para confirmar una sesión de diagnóstico completo digital sin coste ni compromiso.
+                </p>
+                <div class="booking-features">
+                    <div class="b-feature">
+                        <span class="bf-icon">✓</span>
+                        <p>Escaneado Intraoral 3D de diagnóstico incluido</p>
+                    </div>
+                    <div class="b-feature">
+                        <span class="bf-icon">✓</span>
+                        <p>Consulta personalizada con especialista</p>
+                    </div>
+                    <div class="b-feature">
+                        <span class="bf-icon">✓</span>
+                        <p>Valoración clínica e informe radiológico gratuito</p>
+                    </div>
+                </div>
+                <div class="booking-callout">
+                    <p>¿Prefieres llamarnos directamente?</p>
+                    <a href="tel:+34910000000" class="phone-link">+34 910 000 000</a>
+                </div>
+            </div>
+            <div class="booking-form-wrapper animate-on-scroll">
+                <form id="appointment-form" class="booking-form">
+                    <div class="form-group">
+                        <label for="name">Nombre Completo *</label>
+                        <input type="text" id="name" name="name" required placeholder="Ej. Javier López">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Teléfono *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="Ej. 600 000 000">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico *</label>
+                            <input type="email" id="email" name="email" required placeholder="Ej. javier@correo.com">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="treatment">Tratamiento de Interés</label>
+                        <select id="treatment" name="treatment">
+                            <option value="">Selecciona una opción...</option>
+                            <option value="estetica">Estética Dental (Carillas / Blanqueamiento)</option>
+                            <option value="ortodoncia">Ortodoncia Invisible (Invisalign)</option>
+                            <option value="implantes">Implantes Dentales</option>
+                            <option value="preventiva">Higiene / Odontología General</option>
+                            <option value="diagnostico">Primera Consulta de Diagnóstico</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date">Fecha Preferida</label>
+                            <input type="date" id="date" name="date">
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Franja Horaria</label>
+                            <select id="time" name="time">
+                                <option value="mañana">Mañana (9:00 - 14:00)</option>
+                                <option value="tarde">Tarde (15:00 - 20:00)</option>
+                                <option value="indiferente">Indiferente</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="privacy" name="privacy" required>
+                        <label for="privacy">Acepto la <a href="#" class="privacy-link">política de privacidad</a> para el tratamiento de mis datos de contacto.</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Confirmar Solicitud de Cita</button>
+                </form>
+
+                <!-- Success State Overlay -->
+                <div class="form-success-overlay" id="form-success">
+                    <div class="success-message">
+                        <div class="success-icon">✓</div>
+                        <h3>¡Solicitud Recibida!</h3>
+                        <p>Gracias por tu confianza, <strong id="success-user-name"></strong>. Nos pondremos en contacto contigo en las próximas 24 horas laborables para confirmar la fecha y hora exacta de tu cita.</p>
+                        <button class="btn btn-secondary btn-sm" id="reset-form-btn">Volver al Formulario</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <span class="logo-text">AURA</span>
+                    <span class="logo-subtext">DENTAL</span>
+                </a>
+                <p>Odontología de alta gama inspirada en el bienestar absoluto del paciente.</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                    <a href="#" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                    </a>
+                    <a href="#" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#valores">Filosofía</a></li>
+                    <li><a href="#servicios">Tratamientos</a></li>
+                    <li><a href="#nosotros">La Clínica</a></li>
+                    <li><a href="#cita">Pedir Cita</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contacto</h3>
+                <p>📍 Paseo de la Castellana 124, 28046 Madrid</p>
+                <p>📞 <a href="tel:+34910000000">+34 910 000 000</a></p>
+                <p>✉️ <a href="mailto:contacto@auradental.com">contacto@auradental.com</a></p>
+            </div>
+            <div class="footer-hours">
+                <h3>Horario</h3>
+                <p>Lunes a Viernes: 9:00h – 20:00h</p>
+                <p>Sábados: 10:00h – 14:00h</p>
+                <p>Domingos: Cerrado</p>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <div class="container footer-bottom-content">
+                <p>&copy; 2026 Aura Clínica Dental. Todos los derechos reservados.</p>
+                <p><a href="#">Aviso Legal</a> | <a href="#">Política de Privacidad</a> | <a href="#">Política de Cookies</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="index.js"></script>
+</body>
+</html>
